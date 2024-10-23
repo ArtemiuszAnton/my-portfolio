@@ -1,0 +1,43 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.images {
+    display: flex;
+
+    & .linkedin {
+        background-image: url('../../assets/linkedin.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 32px;
+        height: 32px;
+    }
+
+    & .github {
+        background-image: url('../../assets/gitHub.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 32px;
+        height: 32px;
+    }
+
+    & .tg {
+        background-image: url('../../assets/twitter.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 32px;
+        height: 32px;
+    }
+}
+
+.info {
+    display: flex;
+    gap: 60px;
+
+    &p {
+        font: 400 24px Poppins;
+    }
+}
+

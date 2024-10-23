@@ -1,0 +1,21 @@
+.wrapper {
+    & .visit_card {
+        & .about_me {
+            display: flex;
+            justify-content: space-between;
+
+            & p {
+                font: 400 22px;
+                color: black;
+            }
+
+            & h1 {
+                font: 800 88px Poppins;
+                color: black;
+            }
+        }
+    }
+
+    /* & .foto {
+    } */
+}
